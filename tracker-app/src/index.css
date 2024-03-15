@@ -1,0 +1,88 @@
+/* designing what the site looks like, as well as the tables when outputting results */
+
+/* what the site looks like*/
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#cccccc;
+}
+
+/* formatting watched movie table */
+.movie-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .movie-table th, .movie-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  /* Alternate row colors */
+  .even-row {
+    background-color: #f2f2f2;
+  }
+  
+  .odd-row {
+    background-color: #ffffff;
+  }
+
+
+  .recent-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* formatting table for recent movies*/
+  .recent-table th, .recent-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  /* Alternate row colors */
+  .even-row {
+    background-color: #f2f2f2;
+  }
+  
+  .odd-row {
+    background-color: #ffffff;
+  }
+
+  .recent-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+/* formatting movie in a genre table */
+  .genre-table th, .genre-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  /* Alternate row colors */
+  .even-row {
+    background-color: #f2f2f2;
+  }
+  
+  .odd-row {
+    background-color: #ffffff;
+  }
+
+  /* formatting movie by a director table */
+  .dir-table th, .dir-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  /* Alternate row colors */
+  .even-row {
+    background-color: #f2f2f2;
+  }
+  
+  .odd-row {
+    background-color: #ffffff;
+  }
+  
