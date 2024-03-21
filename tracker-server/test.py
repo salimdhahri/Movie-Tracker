@@ -8,7 +8,7 @@ import os
 def cursor():
     # connected to env file with your workbench info
     conn = pymysql.connect(
-        host="localhost", user="root", password="Rapgodeminem8*", database="project"
+        host="localhost", user="root", password="test", database="project"
     )
     conn.autocommit(True)
     crsr = conn.cursor()
